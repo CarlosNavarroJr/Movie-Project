@@ -14,7 +14,10 @@ function MovieCard({movie}) {
             </div>
         </div>
         <div className="movie-info">
-
+            <h3>{movie.title}</h3>
+            <p>{movie.realease_date}</p>
         </div>
     </div>
 }
+
+export default MovieCard
